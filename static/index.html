@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>工匠精神</title>
+    <link rel="stylesheet" type="text/css" href="css/com.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" href="css/swiper-4.3.3.min.css">
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="js/swiper.js"></script>
+    <script>
+        (function (win, doc) {
+            if (!win.addEventListener) return;
+            var html = document.documentElement;
+            function setFont() {
+                var html = document.documentElement;
+                var k = 1920;
+                var clientwidh = html.clientWidth < 1300 ? 1300 : html.clientWidth > 1920 ? 1920 : html.clientWidth;
+                html.style.fontSize = clientwidh / k * 100 + "px";
+            }
+            setFont();
+            setTimeout(function () {
+                setFont();
+            }, 300);
+            doc.addEventListener('DOMContentLoaded', setFont, false);
+            win.addEventListener('resize', setFont, false);
+            win.addEventListener('load', setFont, false);
+        })(window, document);
+    </script>
+</head>
+<body>
+<div class="wraps">
+    <div class="topbar">
+        <a href="#" class="xlogo">logo</a>
+        <div class="topbar_nav">
+            <ul class="top_blist">
+                <li class="active">
+                    <a href="index.html" onclick="this">首页</a>
+                </li>
+                <li>
+                    <a href="news.html" onclick="this">新闻咨询</a>
+                </li>
+                <li>
+                    <a href="javascript:void(0)" onclick="this" class="role_nav">人物档案</a>
+                </li>
+                <li>
+                    <a href="javascript:void (0) " onclick="this" class="video_nav">光影视听</a>
+                </li>
+            </ul>
+            <div class="top_slist">
+                <ul>
+                    <li>
+                        <a href="javascript:void(0)" onclick="this">
+                            <span>微博</span>
+                        </a>
+                        <div class="weibo_f eritem">
+                            <a href="#">二维码</a>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#" onclick="this">
+                            <span>微信</span>
+                        </a>
+                        <div class="weibo_f eritem">
+                            <img src="#">
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#" onclick="this">
+                            <span>QQ</span>
+                        </a>
+                        <div class="qq_f eritem">
+                            <img src="#">
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#" onclick="this">
+                            <span>客服</span>
+                        </a>
+                        <div class="kf_f eritem">
+                            <img src="#">
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+    <div class="main page1">
+        <div id="kv">
+            <img src="img/wallhaven-p9oml3.jpg">
+        </div>
+        <div class="down_zone"></div>
+
+    </div>
+    <div class="main">
+        <img src="img/p2.jpg">
+        <div class="news_content>">
+            <div class="w1200 clearfix">
+                <div class="left_banners">
+                    <div class="left_swiper">
+                        <div class="swiper-container swiper-banner swiper-container-horizontal">//不会
+                            <div class="swiper-wrapper" style="transition-duration: 0ms" ;></div>
+                            //没写完
+                            <div class="swiper-pagination swiper-pagination1 swiper-pagination-clickable swiper-pagination-bullets"></div>
+                            //没写完
+                        </div>
+                    </div>
+
+                </div>
+                <div class="left_news">
+                    <div class="news_navs clearfix">
+                        <ul>
+                            <li class="active" onclick="this">最新</li>
+                            <li onclick="this">新闻</li>
+                            <li onclick="this">公告</li>
+                            <li onclick="this">活动</li>
+                        </ul>
+                    </div>
+                    <div class="new_contents">
+                        <div class="new_con">
+                            <ul style>
+                                <li>
+                                    <a href="#" target="_blank">
+                                        <span class="new_title">新闻1</span>
+                                        <span class="new_time">05-08</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" target="_blank">
+                                        <span class="new_title">新闻2</span>
+                                        <span class="new_time">05-09</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" target="_blank">
+                                        <span class="new_title">新闻3</span>
+                                        <span class="new_time">05-10</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" target="_blank">
+                                        <span class="new_title">新闻4</span>
+                                        <span class="new_time">05-11</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" target="_blank">
+                                        <span class="new_title">新闻5</span>
+                                        <span class="new_time">05-12</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="new_con">
+                            <ul style="opacity: 0.001;transition-property: opacity;transition-duration: 0.5s"></ul>
+                        </div>
+                        <div class="new_con">
+                            <ul style="opacity: 0.001;transition-property: opacity;transition-duration: 0.5s"></ul>
+                        </div>
+                        <div class="new_con">
+                            <ul style="opacity: 0.001;transition-property: opacity;transition-duration: 0.5s;"></ul>
+                        </div>
+                    </div>
+                    <div class="more_news"><a href="#" onclick="this">查看更多</a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="main roles">
+        <div class="js_tz">
+            <div class="js_little">
+                <img src="img/juse_title.png">
+            </div>
+        </div>
+        <div class="js_con">
+            <div class="js_item" style="display: none"></div>
+        </div>
+        <div class="js_nav"></div>
+    </div>
+    <div class="main visions"></div>
+    <div class="main"></div>
+    <style></style>
+    <div class="footers"></div>
+</div>
+
+</body>
+</html>
