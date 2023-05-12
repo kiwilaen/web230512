@@ -73,12 +73,13 @@ a:hover{ text-decoration: none;}
 .music_zone{ width:62px; height:62px; position: absolute ; overflow: hidden;right: 24px; top: 22px;}
 .music_btn{display: block; width: 62px; height: 62px; margin: 0 auto;   background: url(#) no-repeat; background-size: 100% auto; text-indent: -9999px;}
 .music_btn.on{animation: zd 3s linear infinite;   background: url(#) no-repeat; background-size: 100% auto; }
+
 @keyframes zd{
     0%{ transform: rotate(0deg);}
     100%{ transform: rotate(360deg);}
 }
 
-.main{ width: 100%; position: relative;}
+.main{ width: 100%; position: relative; background-position: center cover; background-repeat: no-repeat; background-size: cover;}
 .main img{ display: block; width: 100%;}
 
 @media screen and (max-width:1600px){
