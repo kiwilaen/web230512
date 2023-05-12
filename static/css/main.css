@@ -16,7 +16,7 @@
 
 .left_news{ float: left; width: 6.1rem; margin-left: 0.4rem; padding-top: 0.1rem;}
 .news_navs{ width: 100%;}
-.news_navs ul li{ float: left; font-size: 0.32rem; margin-right: 0.35rem; cursor: pointer; color: #ffffff; font-family: fzz; width: 1.24rem; height: 0.6rem; line-height: 0.6rem; background: url("./img/star.png") center right no-repeat; background-size: 0.15rem 0.15rem;}
+.news_navs ul li{ float: left; font-size: 0.32rem; margin-right: 0.35rem; cursor: pointer; color: #ffffff; font-family: fzz; width: 1.24rem; height: 0.6rem; line-height: 0.6rem; background: url("../img/star.png") center right no-repeat; background-size: 0.15rem 0.15rem;}
 .news_navs ul li:last-child{ margin-right: 0px; background: none;}
 .news_navs ul li.active{ color: #b3905d;}
 .news_navs ul li:hover{ color: #b3905d;}
@@ -31,7 +31,7 @@
 .new_con{ display: none; color: #fff;}
 .new_con:first-child{ display: block;}
 .more_news{ width: 100%; padding-top: 0.2rem; text-align: right; }
-.more_news a{ display: block; float: right; width: 0.95rem; height: 0.46rem; background: url("./img/more_btn.png")no-repeat; background-size: 100% auto; text-indent: -9999px; }
+.more_news a{ display: block; float: right; width: 0.95rem; height: 0.46rem; background: url("../img/more_btn.png")no-repeat; background-size: 100% auto; text-indent: -9999px; }
 .gicpnews-status--2 { text-align: center; line-height: 50px;}
 
 
