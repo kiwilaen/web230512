@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>news</title>
+    <link rel="stylesheet" type="text/css" href="css/com.css">
+    <link rel="stylesheet" type="text/css" href="css/news.css">
+    <link rel="stylesheet" href="css/swiper-4.3.3.min.css">
+
+    <script src="js/swiper.js"></script>
+    <script>
+        (function (win, doc) {
+            if (!win.addEventListener) return;
+            var html = document.documentElement;
+
+            function setFont() {
+                var html = document.documentElement;
+                var k = 1920;
+                var clientwidh = html.clientWidth < 1300 ? 1300 : html.clientWidth > 1920 ? 1920 : html.clientWidth;
+                html.style.fontSize = clientwidh / k * 100 + "px";
+            }
+
+            setFont();
+            setTimeout(function () {
+                setFont();
+            }, 300);
+            doc.addEventListener('DOMContentLoaded', setFont, false);
+            win.addEventListener('resize', setFont, false);
+            win.addEventListener('load', setFont, false);
+        })(window, document);
+    </script>
+</head>
+<body>
+
+<div class="wraps news_bg">
+    <div class="topbar">
+        <a href="#" class="xlogo"></a>
+        <div class="topbar_nav">
+            <ul class="top_blist">
+                <li>
+                    <a href="index.html" onclick="this">首页</a>
+                </li>
+                <li class="active">
+                    <a href="news.html" onclick="this">新闻资讯</a>
+                </li>
+                <li>
+                    <a href="javascript:void(0)" onclick="this" class="role_nav">人物档案</a>
+                </li>
+                <li>
+                    <a href="javascript:void (0) " onclick="this" class="video_nav">光影视听</a>
+                </li>
+            </ul>
+            <div class="top_slist">
+                <ul>
+                    <li>
+                        <a href="javascript:void(0)" onclick="this">
+                            <span>微博</span>
+                        </a>
+                        <div class="weibo_f eritem">
+                            <a href="#">二维码</a>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#" onclick="this">
+                            <span>微信</span>
+                        </a>
+                        <div class="weibo_f eritem">
+                            <img src="#">
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#" onclick="this">
+                            <span>QQ</span>
+                        </a>
+                        <div class="qq_f eritem">
+                            <img src="#">
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#" onclick="this">
+                            <span>客服</span>
+                        </a>
+                        <div class="kf_f eritem">
+                            <img src="#">
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="main">
+        <div class="news_container">
+            <div class="tipsbg1"></div>
+            <div class="news_kv">
+                <img src="/static/img/999f33846c9541deb4950d798889bfb5.jpeg">
+            </div>
+            <div class="news_nav">
+                <img src="img/news_tips1.png">
+                <ul>
+                    <li>
+                        <a href="javascript:void(0);" class="act">最新</a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0);">新闻</a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0);">公告</a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0);">活动</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="news_cont">
+                <ul style>
+                    <li>
+                        <a href="new.html" target="_blank">
+                            <div class="news_type">最新</div>
+                            <div class="news_cont_txt">
+                                <div class="news_title">
+                                    <div class="news_cont_tit"> 新闻1|aaa</div>
+                                    <div class="news_cont_time">2023-05-13</div>
+                                </div>
+                                <div class="news_cont_des"></div>
+                            </div>
+
+                        </a>
+                    </li>
+                    <li>
+                        <a href="new.html" target="_blank">
+                            <div class="news_type">最新</div>
+                            <div class="news_cont_txt">
+                                <div class="news_title">
+                                    <div class="news_cont_tit"> 新闻2|bbb</div>
+                                    <div class="news_cont_time">2023-05-13</div>
+                                </div>
+                                <div class="news_cont_des"></div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="new.html" target="_blank">
+                            <div class="news_type">最新</div>
+                            <div class="news_cont_txt">
+                                <div class="news_title">
+                                    <div class="news_cont_tit">新闻3|bbb</div>
+                                    <div class="news_cont_time">2023-05-13</div>
+                                </div>
+                                <div class="news_cont_des"></div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="new.html" target="_blank">
+                            <div class="news_type">最新</div>
+                            <div class="news_cont_txt">
+                                <div class="news_title">
+                                    <div class="news_cont_tit">新闻4|bbb</div>
+                                    <div class="news_cont_time">2023-05-13</div>
+                                </div>
+                                <div class="news_cont_des"></div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="new.html" target="_blank">
+                            <div class="news_type">最新</div>
+                            <div class="news_cont_txt">
+                                <div class="news_title">
+                                    <div class="news_cont_tit">新闻5|bbb</div>
+                                    <div class="news_cont_time">2023-05-13</div>
+                                </div>
+                                <div class="news_cont_des"></div>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="page_cont">
+            </div>
+        </div>
+    </div>
+</div>
+<div class="footers">
+    <div class="footer" id="gfooter" ams="58608/58610/m22190/" dark="0" ieg-logo="1">
+        <span title="logo1" class="foot_left logo1"></span>
+    </div>
+</div>
+
+<script>
+    var list;
+    var chanelID = [117008, 117009, 117010, 117011];
+    var chanelName = ["最新", "新闻", "公告", "活动"]
+
+    function newsnav() {
+        $(".news_nav li").each(function (index) {
+            $(this).find('a').click(function () {
+                $(".news_nav li").find('a').removeClass("act");
+                $(this).addClass("act");
+                // $(".news_cont").hide();
+                // $(".news_cont").eq(index).show();
+                list.update({
+                    "id": chanelID[index],
+                    "tpl": "<li><a href=\"{url}\" target=\"_blank\"><div class=\"news_type\">" + chanelName[index] + "</div><div class=\"news_cont_txt\"><div class=\"news_title\"><div class=\"news_cont_tit\">{sTitle}</div><div class=\"news_cont_time\">{sIdxTimeYear}-{sIdxTimeMonth}-{sIdxTimeDay}</div></div><div class=\"news_cont_des\">{sDesc}</div></div></a></li>"
+                });
+                // ShowNew(index);
+            });
+
+        });
+    }
+
+    function ShowNew(i) {
+        list = fillNews.list({
+            "gameID": "308",
+            "newsType": "news",
+            "type": "iTag",
+            "pageSize": 8,
+            "id": chanelID[i],
+            "tpl": "<li><a href=\"{url}\" target=\"_blank\"><div class=\"news_type\">" + chanelName[i] + "</div><div class=\"news_cont_txt\"><div class=\"news_title\"><div class=\"news_cont_tit\">{sTitle}</div><div class=\"news_cont_time\">{sIdxTimeYear}-{sIdxTimeMonth}-{sIdxTimeDay}</div></div><div class=\"news_cont_des\">{sDesc}</div></div></a></li>",
+            "wrap": "#newlist",
+            "detailURL": "/web202106/newsdetail.html",
+            "pager": {
+                "wrap": ".page_cont",
+                "type": "scroll",
+                "groups": 0
+            }
+        });
+
+    }
+
+    ShowNew(0);
+    ///////
+    $(".music_btn").hide();
+    $(".top_blist li").removeClass("active");
+    $(".top_blist li").eq(1).addClass("active");
+    newsnav()
+
+    $(window).scroll(function () {
+        var stops = $(window).scrollTop();
+        if (stops >= 42) {
+
+            $(".topbar").addClass("topbar_fixed")
+
+        } else {
+
+            $(".topbar").removeClass("topbar_fixed")
+        }
+
+
+    })
+
+</script>
+
+
+</body>
+</html>

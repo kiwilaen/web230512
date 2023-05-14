@@ -42,7 +42,7 @@ a:hover{ text-decoration: none;}
 
 .topbar{ width: 100%;min-width: 1300px;  height:70px; position: absolute; left: 0; top:0px; z-index: 999; font-family: fzz; font-size: 28px; color: #ffffff;}
 
-.xlogo{ width: 183px; height: 68px; position: absolute; left: 32px; top: 16px; background: url(#) no-repeat; background-size: 100% auto; text-indent: -9999px; }
+.xlogo{ width: 183px; height: 68px; position: absolute; left: 32px; top: 16px; background: url(/static/img/7ee700984921418cb6631154de7d15c8.png) no-repeat; background-size: 100% auto; text-indent: -9999px; }
 .topbar_nav{ width: 1270px; height: 100%; background:#000000; float: right; border-radius: 0 0 0 70px; }
 .top_blist{ float: left; margin-left: 30px;}
 .top_blist li { width: 200px; line-height: 70px; text-align: center; position: relative; float: left;}
