@@ -1,36 +1,17 @@
 ///骞垮憡
-var arr = [23949,23950,23951,23952,23953]
+var arr = [23949, 23950, 23951, 23952, 23953]
 var sw = "";
-for(var i=0;i<arr.length;i++){
-    try{
-        if(oDaTaNew16654['pos'+arr[i]]){
-            console.log(oDaTaNew16654['pos'+arr[i]][1]);
-            sw += "<div class=\'swiper-slide\'><a href=\'"+oDaTaNew16654['pos'+arr[i]][1]+"\' target=\'_blank\' onClick=\'PTTSendClick(\'btn\',\'swiper-banner"+(i+1)+"\',\'骞垮憡杞挱"+(i+1)+"\');\'><img src=\'//ossweb-img.qq.com/upload/adw/"+oDaTaNew16654['pos'+arr[i]][2]+"\' alt=\'"+oDaTaNew16654['pos'+arr[i]][9]+"\'></a></div>"
+for (var i = 0; i < arr.length; i++) {
+    try {
+        if (oDaTaNew16654['pos' + arr[i]]) {
+            console.log(oDaTaNew16654['pos' + arr[i]][1]);
+            sw += "<div class=\'swiper-slide\'><a href=\'" + oDaTaNew16654['pos' + arr[i]][1] + "\' target=\'_blank\' onClick=\'PTTSendClick(\'btn\',\'swiper-banner" + (i + 1) + "\',\'骞垮憡杞挱" + (i + 1) + "\');\'><img src=\'//ossweb-img.qq.com/upload/adw/" + oDaTaNew16654['pos' + arr[i]][2] + "\' alt=\'" + oDaTaNew16654['pos' + arr[i]][9] + "\'></a></div>"
         }
-    }catch(e){
+    } catch (e) {
         console.log(e)
     }
 }
 $(".left_banners .swiper-wrapper").html(sw);
-////////
-var mySwiper = new Swiper('.swiper-banner', {
-    direction: 'horizontal',
-    loop: true,
-    observer: true,//淇敼swiper鑷繁鎴栧瓙鍏冪礌鏃讹紝鑷姩鍒濆鍖杝wiper
-    observeParents: true,//淇敼swiper鐨勭埗鍏冪礌鏃讹紝鑷姩鍒濆鍖杝wiper
-    autoplay: {
-        delay: 6000,
-        stopOnLastSlide: false,
-        disableOnInteraction: true,
-    },
-
-    pagination: {
-        el: '.swiper-pagination1',
-        clickable: true
-    },
-
-})
-
 
 $(".news_navs li").click(function () {
 
@@ -44,18 +25,18 @@ $(".news_navs li").click(function () {
     }
 })
 //
-var wraps=$('.new_con ul');
-var chanelID=[117008,117009,117010,117011];
+var wraps = $('.new_con ul');
+var chanelID = [117008, 117009, 117010, 117011];
 for (var i = 0; i < wraps.length; i++) {
 
     fillNews.list({
         "gameID": "308",
         "newsType": "news",
         "type": "iTag",
-        "pageSize":5,
-        "id":chanelID[i],
+        "pageSize": 5,
+        "id": chanelID[i],
         "tpl": "<li><a href=\"{url}\" target=\"_blank\"><span class=\"new_title\">{sTitle}</span><span class=\"new_time\">{sIdxTimeShort}</span></a></li>",
-        "wrap":wraps[i],
+        "wrap": wraps[i],
         "detailURL": "/web202106/newsdetail.html"
     })
 }
@@ -285,7 +266,7 @@ $('.audios').each(function (index, element) {
 $(".sounds").on("click", function () {
     var _self = $(this);
     var cvaudioId = _self.data('id');
-    if(!cvaudioId) return;
+    if (!cvaudioId) return;
     var cvAudio = $('#' + cvaudioId)[0];
     if (cvAudio.paused) {
         makeAllMusicPaused();
@@ -296,10 +277,5 @@ $(".sounds").on("click", function () {
         _self.removeClass('active');
         cvAudio.pause();
     }
-
-
-
-
-
 })
 

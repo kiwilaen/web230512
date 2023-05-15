@@ -10,7 +10,7 @@
 .news_content{ width: 100%; height: 100%; position: absolute; left: 0; top: 0;}
 .w1200{ width: 12.2rem; margin: 0 auto; padding-top: 1.4rem;}
 
-.left_banners{ width: 5.56rem; padding-top: 1rem ; float: left;}
+.left_banners{ width: 5.56rem; float: left;}
 .left_swiper{ width: 100%; height: 3.2rem;}
 
 
@@ -38,3 +38,12 @@
 /* .js_nav ul li:hover .slice{ display: block;}
 .js_nav ul li:hover .nav_bg{ display: block;} */
 
+/** swiper*/
+
+#news_swiper .swiper-pagination-bullet {
+  background: #fff;
+}
+
+#news_swiper .swiper-pagination-bullet-active {
+  background: #b3905d;
+}
