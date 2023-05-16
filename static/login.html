@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/fontawesome.min.css" integrity="sha512-xX2rYBFJSj86W54Fyv1de80DWBq7zYLn2z0I9bIhQG+rxIF6XVJUpdGnsNHWRa6AvP89vtFupEPDP8eZAtu9qA==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/login.css" />
+    <title>工匠精神浏览登录页</title>
+</head>
+
+<body>
+    <h2>工匠精神登录页</h2>
+    <div class="container" id="container">
+        <div class="form-container sign-in-container">
+            <form>
+                <h1>游客登录</h1>
+                <div class="social-container">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"> <i class="fab fa-google-plus-g"></i> </a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+                <input id="accountNum" type="text" placeholder="账号" />
+                <input id="password" type="password" placeholder="密码" />
+                <a href="#">忘记密码?</a>
+                <button id="studentSignIn" type="button">登录</button>
+            </form>
+        </div>
+        <div class="overlay-container">
+            <div class="overlay">
+                <div class="overlay-panel overlay-left">
+                    <h1>欢迎使用!</h1>
+                    <p>
+                    </p>
+                    <button class="ghost" id="signIn">游客登录</button>
+                </div>
+                <div class="overlay-panel overlay-right">
+                    <h1>欢迎回来!</h1>
+                    <p>输入您的个人信息以开始页面浏览</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script type="module" src="./js/login.js"></script>
+</body>
+
+</html>

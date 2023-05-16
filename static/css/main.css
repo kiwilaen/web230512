@@ -34,6 +34,7 @@
 .more_news a{ display: block; float: right; width: 0.95rem; height: 0.46rem; background: url("../img/more_btn.png")no-repeat; background-size: 100% auto; text-indent: -9999px; }
 .gicpnews-status--2 { text-align: center; line-height: 50px;}
 .news_news {color: #ffffff}
+.Img_Img{height: 860px}
 
 /* .js_nav ul li:hover .slice{ display: block;}
 .js_nav ul li:hover .nav_bg{ display: block;} */
