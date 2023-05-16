@@ -33,7 +33,7 @@
 .more_news{ width: 100%; padding-top: 0.2rem; text-align: right; }
 .more_news a{ display: block; float: right; width: 0.95rem; height: 0.46rem; background: url("../img/more_btn.png")no-repeat; background-size: 100% auto; text-indent: -9999px; }
 .gicpnews-status--2 { text-align: center; line-height: 50px;}
-
+.news_news {color: #ffffff}
 
 /* .js_nav ul li:hover .slice{ display: block;}
 .js_nav ul li:hover .nav_bg{ display: block;} */
@@ -46,4 +46,28 @@
 
 #news_swiper .swiper-pagination-bullet-active {
   background: #b3905d;
+}
+.footers{ background: #191919;;}
+.footers  .foot {
+  background: #191919;
+}
+#gfooter .foot {
+  width: 1240px;
+  margin: 0 auto;
+  padding: 20px 0;
+  color: #968a8a;
+}
+#gfooter p, #gfooter a, #gfooter .foot_links .link_map span, #gfooter .foot_links .link_map a {
+  color: #968a8a;
+}
+
+#gfooter  .foot_ieg_logo{ background: url("../img/Sariel/99fe3eeb66b990abe3df0629dbc9f57.jpg") no-repeat;}
+
+
+#gfooter .logo1 {
+  width: 180px;
+  height: 38px;
+  overflow: hidden;
+  margin: 10px 0 0 10px;
+  background: url("../img/Sariel/99fe3eeb66b990abe3df0629dbc9f57.jpg") no-repeat;
 }
