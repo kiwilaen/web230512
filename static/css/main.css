@@ -1,3 +1,6 @@
+a:visited {
+  color: inherit;
+}
 
 .wraps{ width: 100%; min-width: 1300px; overflow: hidden; max-width: 1920px; margin: 0 auto; }
 
@@ -64,11 +67,17 @@
 
 #gfooter  .foot_ieg_logo{ background: url("../img/Sariel/99fe3eeb66b990abe3df0629dbc9f57.jpg") no-repeat;}
 
+.foot_lefts {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
 
 #gfooter .logo1 {
   width: 180px;
   height: 38px;
   overflow: hidden;
-  margin: 10px 0 0 10px;
-  background: url("../img/Sariel/99fe3eeb66b990abe3df0629dbc9f57.jpg") no-repeat;
+  background-image: url("../img/Sariel/73697b31cc334cd90b9cf71c9b068b6.png");
+  background-size: contain;
+  background-repeat: no-repeat;
 }

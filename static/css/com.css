@@ -110,17 +110,4 @@ a:hover{ text-decoration: none;}
     color: #968a8a;
 }
 
-#gfooter  .foot_ieg_logo{ background: url("../img/Sariel/99fe3eeb66b990abe3df0629dbc9f57.jpg") no-repeat;}
-
-
-#gfooter .logo1 {
-    width: 180px;
-    height: 38px;
-    overflow: hidden;
-    margin: 10px 0 0 10px;
-    background: url("../img/Sariel/73697b31cc334cd90b9cf71c9b068b6.png") no-repeat;
-}
-
 .topbar_fixed{ position: fixed; top: 0;}
-
-
