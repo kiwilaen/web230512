@@ -13,7 +13,6 @@ const ajaxGet = (url, params) => {
         xhr.open('GET', url + '?' + params, true)
         xhr.send(null)
     })
-
 }
 
 // 格式化请求参数

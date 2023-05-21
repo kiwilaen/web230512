@@ -7,16 +7,10 @@ const studentSignIn = document.getElementById('studentSignIn')
 
 //在页面加载的时候调用getCaptchaBase64接口
 function getCaptchaBase64() {
-    const img = document.getElementById('img')
-    ajaxGet("/getCaptchaBase64",formatter({
-        img : img.value
-    })
+    ajaxGet("/getCaptchaBase64", formatter()
         .then((res) => {
-            console.log(res.url)
-            res = JSON.parse(res.url)
-            if (res.success) {
-                img.src = res.url
-                container.appendChild(img)
+            if (res.url) {
+                document.getElementById("imgCheck").setAttribute("src", res.url)
             }
         })
         .catch((err) => {
@@ -26,7 +20,7 @@ function getCaptchaBase64() {
 }
 
 
-window.onload = function() {
+window.onload = function () {
     getCaptchaBase64();
 }
 
@@ -39,7 +33,7 @@ studentSignIn.addEventListener('click', () => {
     ajaxGet("/user/login", formatter({
         accountNum: accountNum.value,
         password: password.value,
-        })
+    })
         .then((res) => {
             console.log(res)
             res = JSON.parse(res)
@@ -53,7 +47,7 @@ studentSignIn.addEventListener('click', () => {
             console.log(err)
         }))
     ajaxGet("/checkCaptcha", formatter({
-        code : code.value
+        code: code.value
     }))
         .then((res) => {
             console.log(res)
@@ -73,11 +67,11 @@ studentSignIn.addEventListener('click', () => {
 })
 
 
-var signInSuccess = function() {
+var signInSuccess = function () {
     window.location.href = './main/news.html'
 }
 
-var signInFail = function(n, p) {
+var signInFail = function (n, p) {
     alert('账号或密码错误!请重新输入')
     n.value = ''
     p.value = ''
